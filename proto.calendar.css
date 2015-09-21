@@ -1,0 +1,57 @@
+﻿.rabbit_calendar {
+    border: 1px solid #b98912;
+}
+
+.calendar_title {
+    padding: 2% ;
+    background: #b98912 ;
+    color: #ffffff ;
+    font-weight: bold ;
+}
+
+.calendar_time {
+    text-align: center ;
+    padding: 2% 0 ;
+}
+
+    .calendar_time span , .calendar_time a {
+        padding : 0 2%;
+    }
+
+    .calendar_time a {
+        cursor : pointer ;
+        font-weight :bold ;
+    }
+
+.calendar_content {
+    padding: 2% 0 ;
+}
+
+.calendar_item {
+    float: left ;
+    width: 13% ;
+    border: 1px solid #ffffff;
+    text-align: center ;
+}
+
+.calendar_prev_month_item , .calendar_next_month_item {
+    color: #c2c2c2 ;
+}
+
+.calendar_weekend {
+    color: #ff6a00 ;
+}
+
+.calendar_today {
+    background: #000000 ;
+    color: white ;
+}
+
+.calendar_fest {
+    border: 1px solid #2d97de;
+    cursor: pointer ;
+}
+
+.clear {
+    clear: both ;
+}

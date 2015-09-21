@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title ></title>
+    <link href="proto.calendar.css" rel="stylesheet" />
+    <script src="proto.calendar.js"></script>
+</head>
+<body>
+    <div id="container" style=" width :250px ;height: 210px ;">
+    </div >
+
+    <script type="text/javascript">
+        rabbit.build(
+            //目标容器
+            document.getElementById( "container" ),
+            //默认时间
+            new Date(),
+            //特殊节日
+            [{ "time" : "2015-03-01" , "msg": "愚蠢的兔子" }],
+            //点击节日的回调函数
+            function (festival) {
+                //这里获得的参数是特殊节日集合中的一个（被点击的那个）
+                alert(festival.msg);
+            });
+    </script >
+</body>
+</html>
